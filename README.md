@@ -9,6 +9,8 @@
 
 to do：增加文字的对齐方式。
 
+博客链接：http://blog.csdn.net/goodlixueyong/article/details/50785032
+
 具体的效果如下：
 
 ![](https://github.com/viclee2014/VerticalSwitchTextView/blob/master/app/src/main/res/raw/vertical_switch_textview.gif)
