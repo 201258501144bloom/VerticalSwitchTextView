@@ -16,6 +16,7 @@
 博客链接：http://blog.csdn.net/goodlixueyong/article/details/50785032
 
 具体的效果如下
+
 带有gravity属性和ellipsis属性的效果：
 
 ![](https://github.com/viclee2014/VerticalSwitchTextView/blob/master/app/src/main/res/raw/vertical_switch_textview2.gif)
