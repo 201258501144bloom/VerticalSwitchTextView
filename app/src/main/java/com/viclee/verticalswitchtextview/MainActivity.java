@@ -1,8 +1,7 @@
 package com.viclee.verticalswitchtextview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
+import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
 import java.util.ArrayList;
@@ -16,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        ArrayList<String> list = new ArrayList<String>(Arrays.asList("测试", "Android", "资源管理", "破解密钥", "微信", "科比"));
+        ArrayList<String> list = new ArrayList<String>(Arrays.asList("能够适应多行长文本的Android TextView的例子", "理解的也很简单，我只是列出这个库里面我用到的一些方法",
+                "适当放松放", "破解密钥", "实现了两种方式来检测Android app前后台切换的状态", "科比"));
         VerticalSwitchTextView verticalSwitchTextView1 = (VerticalSwitchTextView) findViewById(R.id.vertical_switch_textview1);
         VerticalSwitchTextView verticalSwitchTextView2 = (VerticalSwitchTextView) findViewById(R.id.vertical_switch_textview2);
         verticalSwitchTextView1.setCbInterface(new VerticalSwitchTextView.VerticalSwitchTextViewCbInterface() {
